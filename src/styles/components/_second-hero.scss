@@ -1,0 +1,29 @@
+.second-hero {
+    img {
+        height: 720px;
+        width: 540px;
+    }
+
+    .hero-section {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 125px;
+
+        &:first-child {
+            margin-bottom: 120px;
+        }
+
+        &:last-child {
+            flex-direction: row-reverse;
+        }
+
+        .hero-text {
+            max-width: 445px;
+
+            h2 {
+                margin-bottom: 16px;
+            }
+        }
+    }
+}

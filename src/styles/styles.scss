@@ -1,0 +1,14 @@
+//Setup
+@import 'setup/variables';
+@import 'setup/mixins';
+
+//Basics
+@import 'basics/typography';
+@import 'basics/layout';
+@import 'basics/base';
+@import 'basics/helpers';
+
+// Components
+@import 'components/main-hero';
+@import 'components/second-hero';
+@import 'components/highlights';

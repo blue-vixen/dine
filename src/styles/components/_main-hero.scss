@@ -1,0 +1,25 @@
+.main-hero-container {
+    color: #fff;
+    background-image: url(~@/assets/imgs/hero.png);
+    background-color: $clr2;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right bottom;
+    height: 820px;
+    
+    .logo {
+        margin-top: 65px;
+        margin-bottom: 153px;
+    }
+    .main-hero {
+        max-width: 523px;
+
+        h1 {
+            margin-bottom: 24px;
+        }
+
+        p {
+            margin-bottom: 42px;
+        }
+    }
+}

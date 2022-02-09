@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+
+h1, h2, h3,h4,h5,h6,p {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-family: spartan-light;
+    font-size: 64px;
+    line-height: 72px;
+}
+
+h2 {
+    font-family: spartan-bold;
+    font-size: 40px;
+    line-height: 56px;
+}
+
+h3 {
+    font-family: spartan-bold;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+p, li {
+    font-family: spartan-regular;
+}
+
+button {
+    font-family: spartan-semibold;
+    text-transform: uppercase;
+    background-color: $clr2;
+    color: #FFFFFF;
+    padding: 24px 56px;
+    border: 1px solid white;
+}
